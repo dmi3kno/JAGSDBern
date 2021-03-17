@@ -15,6 +15,7 @@ AC_CANONICAL_HOST
 
 dnl the following files check if the required files exist
 AC_CONFIG_SRCDIR([src/distributions/DBern.cc])
+AC_CONFIG_SRCDIR([src/functions/LogBernFun.cc])
 AC_CONFIG_MACRO_DIR([m4])
 
 dnl The configure process creates a header file called config.h. Added the subdir-objects
@@ -49,5 +50,6 @@ AC_CONFIG_FILES([
    libltdl/Makefile
    src/Makefile
    src/distributions/Makefile
+   src/functions/Makefile
 ])
 AC_OUTPUT
