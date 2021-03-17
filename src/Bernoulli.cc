@@ -1,5 +1,8 @@
-#include <Module.h> // include JAGS module base class
+#include <module/Module.h> // include JAGS module base class
 #include <distributions/DBern.h> // include Bernoulli distribution class
+
+using jags::Module;
+using jags::Distribution;
 
 namespace Bernoulli {// start defining the module namespace
 

@@ -9,6 +9,7 @@
 using std::vector; //vector is used in code
 using std::min; //min is used in code
 using std::max; //max is used in code
+using jags::DIST_PROPORTION;
 
 #define PROB(par) (*par[0]) // makes code more readable
 

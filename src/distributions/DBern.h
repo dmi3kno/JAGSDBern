@@ -2,6 +2,10 @@
 #define DBERN_H_
 #include <distribution/ScalarDist.h> // JAGS scalar distributions base class
 
+using jags::ScalarDist;
+using jags::PDFType;
+using jags::RNG;
+
 namespace Bernoulli {
 
 class DBern : public ScalarDist {
